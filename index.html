@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.min.css">
+  <title>Face Detection</title>
+  <script defer src="face-api.min.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <h1 class="title">Emotion <span class="half">Detector</span></h1>
+  <div class="info">
+    <p class="desc">Emotion detector can detect face expressions and indiacte if person is happy, sad, surprised etc. This application uses an API to get pre-trained models from FaceAPI.</p>
+    <br>
+    <p class="title-sm">Team: <span class="half">PioneER</span></p><br>
+    <p class="title-sm">Members:<br><br><span class="half">Galib Jaman<br>ID: 12021012<br>Dept. of CSE (5th)<br><br>Farhana Akter<br>ID: 12021017<br>Dept. of CSE (5th)</span></p>
+    <button class="btn" onclick="startVideo()">Start</button>
+
+  </div>
+  <video id="video" width="720" height="540" autoplay muted></video>
+</body>
+</html>
